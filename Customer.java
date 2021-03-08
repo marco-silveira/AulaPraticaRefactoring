@@ -22,7 +22,7 @@ public class Customer {
    }
   
    public String statement() {
-       return new TextStatement().Value(this);
+       return new TextStatement().value(this);
    }
       
    public String htmlStatement() {
